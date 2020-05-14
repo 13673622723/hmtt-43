@@ -81,10 +81,10 @@ export default {
 
 <style scoped lang="less">
 .outermost {
-  padding: 20 / 360 * 100vw;
+  padding: 20 / 375 * 100vw;
   .back {
-    width: 27 / 360 * 100vw;
-    height: 27 / 360 * 100vw;
+    width: 27 / 375 * 100vw;
+    height: 27 / 375 * 100vw;
     .iconicon-test {
       font-size: 27px;
     }
@@ -95,18 +95,18 @@ export default {
     .iconnew {
       color: #cc3300;
       font-size: 126px;
-      margin: 20 / 360 * 100vw 0;
+      margin: 20 / 375 * 100vw 0;
     }
   }
   .van-cell {
-    margin-bottom: 20 / 360 * 100vw;
+    margin-bottom: 20 / 375 * 100vw;
   }
   .van-button--info {
     background: #cc3300;
     border: none;
     outline: none;
-    margin-top: 30 / 360 * 100vw;
-    margin-bottom: 30 / 360 * 100vw;
+    margin-top: 30 / 375 * 100vw;
+    margin-bottom: 30 / 375 * 100vw;
   }
 }
 </style>

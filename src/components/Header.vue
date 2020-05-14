@@ -18,9 +18,9 @@ export default {
 <style scoped lang="less">
 .header {
   display: flex;
-  padding: 20 / 360 * 100vw;
+  padding: 20 / 375 * 100vw;
   justify-content: space-between;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #f3f3f3;
   .iconjiantou {
     font-size: 18px;
   }
