@@ -3,13 +3,13 @@
     <!-- 返回上一页的按钮 -->
     <div class="back">
       <router-link to="/">
-        <span class="iconfont iconicon-test"></span>
+        <span class="iconfont icon-guanbi"></span>
       </router-link>
     </div>
 
     <!-- log -->
     <div class="log">
-      <span class="iconfont iconnew"></span>
+      <span class="iconfont icon-new"></span>
     </div>
 
     <!-- 登录的form表单 -->
@@ -79,14 +79,14 @@ export default {
   .back {
     width: 27 / 375 * 100vw;
     height: 27 / 375 * 100vw;
-    .iconicon-test {
+    .icon-guanbi {
       font-size: 27px;
     }
   }
   .log {
     display: flex;
     justify-content: center;
-    .iconnew {
+    .icon-new {
       color: #cc3300;
       font-size: 126px;
       margin: 20 / 375 * 100vw 0;

@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import Vant from 'vant';
+import Vant, { Toast } from 'vant';
 import 'vant/lib/index.css';
 import axios from "axios";
 
@@ -14,6 +14,22 @@ axios.defaults.baseURL = "http://hmtoutiao-api.atlansic.com"
 Vue.use(Vant);
 
 Vue.config.productionTip = false
+
+// 添加一个拦截器  数据获取失败的时候，可以给用户提醒
+axios.interceptors.response.use(
+  res => {
+    if (res) {
+      return res;
+    }
+  },
+  err => {
+    // console.log(err.response);
+    const { statusCode, message } = err.response.data
+    if (statusCode === 400) {
+      Toast.fail(message)
+    }
+  }
+);
 
 // 添加一个路由守卫
 // to：即将要访问的页面

@@ -14,8 +14,8 @@
           </div>
           <div class="usernames">
             <div>
-              <span class="iconfont iconxingbienan" v-if="userInfo.gender===1"></span>
-              <span class="iconfont iconxingbienv" v-if="userInfo.gender===0"></span>
+              <span class="iconfont icon-xingbienan" v-if="userInfo.gender===1"></span>
+              <span class="iconfont icon-xingbienv" v-if="userInfo.gender===0"></span>
               <span>{{userInfo.nickname}}</span>
             </div>
             <div>
@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="rightjiantou">
-          <span class="iconfont iconjiantou1"></span>
+          <span class="iconfont icon-youjiantou"></span>
         </div>
       </div>
     </router-link>
@@ -121,10 +121,10 @@ export default {
     }
     .usernames {
       margin-left: 20 / 375 * 100vw;
-      .iconxingbienan {
+      .icon-xingbienan {
         color: blue;
       }
-      .iconxingbienv {
+      .icon-xingbienv {
         color: pink;
       }
     }

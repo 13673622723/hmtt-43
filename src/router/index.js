@@ -32,6 +32,10 @@ const routes = [
   {
     path: "/comment",
     component: () => import("@/views/Comment")
+  },
+  {
+    path: "/",
+    component: () => import("@/views/Index")
   }
 ]
 

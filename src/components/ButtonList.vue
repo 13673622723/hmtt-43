@@ -5,7 +5,7 @@
         <div class="left">{{label}}</div>
         <div class="right">
           <span class="box1">{{value}}</span>
-          <span class="iconfont iconjiantou1"></span>
+          <span class="iconfont icon-youjiantou"></span>
         </div>
       </div>
     </router-link>
