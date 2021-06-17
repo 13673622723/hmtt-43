@@ -1,5 +1,5 @@
 <template>
-  <div>我的收藏页</div>
+  <div>我的收藏页mian</div>
 </template>
 
 <script>

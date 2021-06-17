@@ -1,5 +1,5 @@
 <template>
-  <div>我的跟帖</div>
+  <div>我的跟帖页面</div>
 </template>
 
 <script>
