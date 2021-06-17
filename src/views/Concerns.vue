@@ -10,6 +10,7 @@
       <!-- unfollowUser点击取消关注 -->
       <!-- 点击取消的时候把id和索引传过去 -->
       <div class="unfollow" @click="unfollowUser(index)">取消关注</div>
+      <img src="" alt="">
     </div>
   </div>
 </template>

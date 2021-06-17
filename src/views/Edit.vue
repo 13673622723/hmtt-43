@@ -76,7 +76,7 @@ export default {
         Authorization: jsonUser.token
       }
     }).then(res => {
-      console.log(res);
+      // console.log(res);
       const { data } = res.data;
       this.userInfo = data;
       this.nickname = data.nickname;
@@ -159,6 +159,8 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  borderr
+
   img {
     width: 100 / 375 * 100vw;
     height: 100 / 375 * 100vw;

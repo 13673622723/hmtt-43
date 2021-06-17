@@ -1,11 +1,13 @@
 <template>
   <div id="app">
+    <!-- <keep-alive> -->
     <router-view />
+    <!-- </keep-alive> -->
   </div>
 </template>
 
 <style lang="less">
-  @import url("//at.alicdn.com/t/font_1844634_xp9rmhw1bk.css");
+@import url("//at.alicdn.com/t/font_1844634_xp9rmhw1bk.css");
 * {
   margin: 0;
   padding: 0;

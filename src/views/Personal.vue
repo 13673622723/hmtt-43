@@ -2,7 +2,7 @@
   <div>
     <!-- 头部组件 -->
     <div>
-      <Header title="个人中心" />
+      <Header title="个人中心" isShow="true"/>
     </div>
     <!-- 个人信息详情 -->
     <router-link to="/edit">
@@ -107,6 +107,7 @@ export default {
   align-items: center;
   padding: 20 / 375 * 100vw;
   border-bottom: 5px solid #f3f3f3;
+  color: rgb(51, 51, 51);
   .userItem {
     display: flex;
     align-items: center;
